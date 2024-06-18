@@ -15,5 +15,5 @@ const {mongoose,Schema} = require('mongoose');
         required:true,
     },
  },{timestamps:true})
- const User = mongoose.model('User', UserSchema);
- module.exports = User;
+ const Admin = mongoose.model('Admin', AdminSchema);
+ module.exports = Admin;
