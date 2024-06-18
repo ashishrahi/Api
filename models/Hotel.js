@@ -6,7 +6,8 @@ hotelname:{
     },
     room:{
         type:mongoose.Type.Schema.ObjectId,
-        
+        required:true,
+
     },
     type:{
         type:String,
